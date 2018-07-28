@@ -1,0 +1,14 @@
+# Deploy Build system
+print working_directory
+
+print localhost
+
+localhost: ls
+
+print "abc"
+print 123#123
+print 0x123
+print 0o123
+print 0b111
+
+localhost << localhost: copy test1.du test.du
